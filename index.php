@@ -4,7 +4,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -17,6 +17,7 @@
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -68,7 +69,7 @@
 					</li>
 					
 					<li>
-						<a href="#">
+						<a href="ressources/register.php">
 							<span class="glyphicon glyphicon-pencil"></span>
 							Registrieren
 						</a>
@@ -137,8 +138,7 @@
 					
                     <!-- chatbox body -->
                     <div class="panel-body chat-box-main">
-						<p>Test Nachricht</p>
-						<p>Test Nachricht 2</p>
+
                     </div>
                     <!-- end of chatbox body -->
                     
