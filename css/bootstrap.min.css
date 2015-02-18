@@ -9,6 +9,15 @@ html {
 	-ms-text-size-adjust: 100%
 }
 
+.brand a , .brand a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.registrieren p {
+	text-align: left;
+}
+
 body {
 	margin: 0
 }
@@ -925,7 +934,7 @@ td, th {
 }
 
 .glyphicon-log-in:before {
-	content: "\e161"
+	content: "\e387"
 }
 
 .glyphicon-flash:before {
@@ -1058,6 +1067,10 @@ td, th {
 
 .glyphicon-copyright-mark:before {
 	content: "\e194"
+}
+
+.glyphicons-chat:before {
+	content: "\e246"
 }
 
 .glyphicon-registration-mark:before {
@@ -4516,7 +4529,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 .navbar-brand>img {
-	display: block
+	margin: -10px 10px -8px 0;
 }
 
 @media ( min-width :768px) {

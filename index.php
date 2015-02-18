@@ -14,6 +14,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/glyphicons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
@@ -34,7 +35,7 @@
 
 <body>
 
-    <div class="brand">BBC Chat</div>
+    <div class="brand"><a href="index.php">BBC Chat</a></div>
     <div class="address-bar"></div>
 
     <!-- Navigation -->
@@ -49,7 +50,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">BBC Chat</a>
+                <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="40" width="40">BBC Chat</a>
             </div>
             
             
@@ -58,7 +59,7 @@
                 <ul class="nav navbar-nav">
                 
                     <li>
-                        <a href="index.php">Chat</a>
+                        <a href="index.php"><span class="glyphicon glyphicon-globe"></span> Chat</a>
                     </li>
 					
 					<li>
@@ -182,12 +183,6 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 </div>
 
 </body>
