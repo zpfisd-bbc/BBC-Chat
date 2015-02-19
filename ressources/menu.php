@@ -1,5 +1,8 @@
 <?php
 ?>
+<head>
+<link rel="shortcut icon" href="../img/favicon/favicon.ico" />
+</head>
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
 	<div class="container">
@@ -12,8 +15,8 @@
 					class="icon-bar"></span>
 			</button>
 			<!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-			<a class="navbar-brand" href="BBC-Chat|index.php"><img
-				src="img/logo.png" height="40" width="40">BBC Chat</a>
+			<a class="navbar-brand" href="../index.php"><img
+				src="../img/logo.png" height="40" width="40">BBC Chat</a>
 		</div>
 
 
@@ -22,7 +25,7 @@
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 
-				<li><a href="../../index.php"><span class="glyphicon glyphicon-globe"></span>
+				<li><a href="../index.php"><span class="glyphicon glyphicon-globe"></span>
 						Chat</a></li>
 
 				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>

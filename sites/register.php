@@ -61,24 +61,28 @@
         
         
         <!-- body of form -->
+        <form method="post" action="../ressources/eintragen.php">
             <div class="box">
             	<div class="registrieren">
 	            	Username<br>
-	        		<input type="text" id="username"><br><br>
+	        		<input type="text" id="username" name="username" required><br><br>
 	        		
 	        		Vorname<br>
-	        		<input type="text" id="vorname"><br><br>
+	        		<input type="text" id="vorname" name="vorname" required><br><br>
 	        		
 	        		Nachname<br>
-	        		<input type="text" id="nachname"><br><br>
+	        		<input type="text" id="nachname" name="nachname" required><br><br>
 	        		
 	        		E-Mail<br>
-	        		<input type="text" id="email"><br><br>
+	        		<input type="text" id="email" name="email" required><br><br>
 	        		
 	        		Passwort<br>
-	        		<input type="password" id="passwort"><br><br>
+	        		<input type="password" id="passwort" name="passwort" required><br><br>
+	        		
+	        		<input type="submit" id="submit" placeholder="Registrieren" required><br><br>
 	        	</div>
         	</div>
+        </form>
         <!-- /form -->
 
 
