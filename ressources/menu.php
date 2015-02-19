@@ -28,7 +28,7 @@
 				<li><a href="../index.php"><span class="glyphicon glyphicon-globe"></span>
 						Chat</a></li>
 
-				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>
+				<li><a href="../sites/login.php"> <span class="glyphicon glyphicon-log-in"></span>
 						Login
 				</a></li>
 

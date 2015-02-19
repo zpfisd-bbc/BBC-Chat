@@ -21,7 +21,7 @@ $count = mysqli_num_rows ( $check );
 
 //What will be printed if username exists
 if ($count == 1) {
-//       header ( "Refresh: 0; url=../sites/register.php" );
+       header ( "Refresh: 0; url=../sites/register.php" );
        echo "<script>alert('Der Username ist leider schon vergeben');
                     </script>";
 }
