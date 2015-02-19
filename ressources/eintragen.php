@@ -21,7 +21,7 @@ $count = mysqli_num_rows ( $check );
 
 //What will be printed if username exists
 if ($count == 1) {
-//       header ( "Refresh: 0; url=../sites/register.php" );
+       header ( "Refresh: 0; url=../sites/register.php" );
        echo "<script>alert('Der Username ist leider schon vergeben');
                     </script>";
 }
@@ -30,8 +30,8 @@ else {
 	$query = 'insert into registration (registration_ID, username, nachname, vorname, mail, passwort)
 		values (null,"'.$username.'","'.$nachname.'","'.$vorname.'","'.$mail.'",md5("'.$passwort.'"));';
 			
-			$mysqli->query($query);
-			header("location: ../index.php");
+	$mysqli->query($query);
+    header ( "Refresh: 0; url=../index.php" );
 }
 
 

@@ -52,7 +52,7 @@
             <div class="box">
                 <div class="col-lg-12">
 				
-					<h1>Registrieren</h1>
+					<h1>Anmelden</h1>
 				
 
                 </div>
@@ -61,20 +61,11 @@
         
         
         <!-- body of form -->
-        <form method="post" action="../ressources/eintragen.php">
+        <form method="post" action="../ressources/login.php">
             <div class="box">
             	<div class="registrieren">
 	            	Username<br>
 	        		<input type="text" id="username" name="username" required><br><br>
-	        		
-	        		Vorname<br>
-	        		<input type="text" id="vorname" name="vorname" required><br><br>
-	        		
-	        		Nachname<br>
-	        		<input type="text" id="nachname" name="nachname" required><br><br>
-	        		
-	        		E-Mail<br>
-	        		<input type="email" id="email" name="email" required><br><br>
 	        		
 	        		Passwort<br>
 	        		<input type="password" id="passwort" name="passwort" required><br><br>
