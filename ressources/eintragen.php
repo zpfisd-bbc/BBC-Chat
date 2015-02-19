@@ -30,8 +30,8 @@ else {
 	$query = 'insert into registration (registration_ID, username, nachname, vorname, mail, passwort)
 		values (null,"'.$username.'","'.$nachname.'","'.$vorname.'","'.$mail.'",md5("'.$passwort.'"));';
 			
-			$mysqli->query($query);
-			header("location: ../index.php");
+	$mysqli->query($query);
+    header ( "Refresh: 0; url=../index.php" );
 }
 
 
