@@ -97,15 +97,16 @@
 
                     </div>
                     <!-- end of chatbox body -->
-                    
                     <div class="chat-box-footer">
+                        <form method="post" action="../ressources/message.php">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Text eingeben...">
+                            <input type="text" class="form-control" placeholder="Text eingeben..." name="message" id="message">
                             
                             <span class="input-group-btn">
-                                <button class="btn btn-info" type="button">SENDEN</button>
+                                <input class="btn btn-info" type="submit" id="submit" placeholder="Registrieren" required>
                             </span>
                         </div>
+                        </form>
                     </div>
 
                 </div>
