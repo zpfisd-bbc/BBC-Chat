@@ -25,8 +25,8 @@ while($zeile = $result->fetch_array())
 		
 		//Auch andere Infos aus der DB kann
 		//man in der Session speichern
-		$_SESSION['Username'] = $zeile["username"]; //Der Name z.B.
-		$_SESSION['Passwort'] = $zeile['passwort']; 
+		$_SESSION['username'] = $zeile["username"]; //Der Name z.B.
+		$_SESSION['passwort'] = $zeile["passwort"]; 
 		break;
 	}
 }

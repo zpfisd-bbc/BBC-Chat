@@ -1,5 +1,6 @@
 <?php
 session_start();
+error_reporting(0);
 if ($_SESSION["logedin"] == true)
 {
 ?>
@@ -31,12 +32,12 @@ if ($_SESSION["logedin"] == true)
 				<li><a href="../index.php"><span class="glyphicon glyphicon-globe"></span>
 						Chat</a></li>
 
-				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>
+				<li><a href="../ressources/logout.php"> <span class="glyphicon glyphicon-off"></span>
 						Logout
 				</a></li>
 
-				<li><a href="../sites/register.php"> <span
-						class="glyphicon glyphicon-pencil"></span> <?php $_SESSION["Username"]?>
+				<li><a href="#"> <span
+						class="glyphicon glyphicon-user"></span> <?php echo $_SESSION['username']?>
 				</a></li>
 
 			</ul>
@@ -76,11 +77,8 @@ if ($_SESSION["logedin"] == true)
 
 				<li><a href="../index.php"><span class="glyphicon glyphicon-globe"></span>
 						Chat</a></li>
-
-				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>
-=======
+				
 				<li><a href="../sites/login.php"> <span class="glyphicon glyphicon-log-in"></span>
->>>>>>> origin/master
 						Login
 				</a></li>
 
