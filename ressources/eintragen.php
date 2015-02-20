@@ -1,12 +1,32 @@
 <?php
 include_once 'config.php';
 
+$error = 0;
 //Variables from register.php form
 $username = $_POST['username'];
+if ($username == null) {
+	$error = 1;
+}
+
 $vorname = $_POST['vorname'];
+if ($vorname == null) {
+	$error = 1;
+}
+
 $nachname = $_POST['nachname'];
+if ($nachname == null) {
+	$error = 1;
+}
+
 $mail = $_POST['email'];
+if ($mail == null) {
+	$error = 1;
+}
+
 $passwort = $_POST['passwort'];
+if ($passwort == null) {
+	$error = 1;
+}
 
 
 //sql query
@@ -23,6 +43,12 @@ $count = mysqli_num_rows ( $check );
 if ($count == 1) {
        header ( "Refresh: 0; url=../sites/register.php" );
        echo "<script>alert('Der Username ist leider schon vergeben');
+                    </script>";
+}
+
+elseif ($error == 1) {
+		header ( "Refresh: 0; url=../index.php" );
+		echo "<script>alert('Ein Fehler ist aufgetreten.');
                     </script>";
 }
 

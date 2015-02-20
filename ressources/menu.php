@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+session_start();
 if ($_SESSION["logedin"] == true)
 {
 ?>
@@ -31,7 +31,6 @@ if ($_SESSION["logedin"] == true)
 				<li><a href="../index.php"><span class="glyphicon glyphicon-globe"></span>
 						Chat</a></li>
 
-<<<<<<< HEAD
 				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>
 						Logout
 				</a></li>
