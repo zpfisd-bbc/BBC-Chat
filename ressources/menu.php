@@ -1,6 +1,5 @@
 <?php
 session_start();
-error_reporting(0);
 if ($_SESSION["logedin"] == true)
 {
 ?>
@@ -82,8 +81,8 @@ if ($_SESSION["logedin"] == true)
 						Login
 				</a></li>
 
-				<li><a href="../sites/register.php"> <span
-						class="glyphicon glyphicon-pencil"></span> Registrieren
+				<li><a href="../sites/register.php"> <span class="glyphicon glyphicon-pencil"></span>
+						Registrieren
 				</a></li>
 
 			</ul>

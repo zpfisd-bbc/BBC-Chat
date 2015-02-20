@@ -9,6 +9,12 @@ html {
 	-ms-text-size-adjust: 100%
 }
 
+br {
+	margin: 20px 0px;
+	display: block;
+	line-height: 22px;
+	content: " ";
+}
 .brand a , .brand a:hover{
 	color: white;
 	text-decoration: none;

@@ -1,4 +1,5 @@
 <?php
+include_once '../ressources/chat_history.php';
 ?>
 <html lang="en">
 
@@ -70,6 +71,7 @@
                     <div class="chat-box-div">
                     <div class="chat-box-head">
                         CHAT HISTORY
+                    <hr>
                         
                         <!-- settings -->
                             <div class="btn-group pull-right">
@@ -99,6 +101,10 @@
                     <!-- end of chatbox body -->
                     <div class="chat-box-footer">
                         <form method="post" action="../ressources/message.php">
+						<?php
+						include_once 'ressources/chat_history.php';
+						?>
+						<hr>
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Text eingeben..." name="message" id="message">
                             
