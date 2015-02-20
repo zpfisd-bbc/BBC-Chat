@@ -31,6 +31,7 @@ if ($_SESSION["logedin"] == true)
 				<li><a href="../index.php"><span class="glyphicon glyphicon-globe"></span>
 						Chat</a></li>
 
+<<<<<<< HEAD
 				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>
 						Logout
 				</a></li>
@@ -78,6 +79,9 @@ if ($_SESSION["logedin"] == true)
 						Chat</a></li>
 
 				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>
+=======
+				<li><a href="../sites/login.php"> <span class="glyphicon glyphicon-log-in"></span>
+>>>>>>> origin/master
 						Login
 				</a></li>
 
