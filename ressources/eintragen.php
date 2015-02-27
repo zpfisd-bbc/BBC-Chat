@@ -4,27 +4,27 @@ include_once 'config.php';
 $error = 0;
 
 //Variables from register.php form
-$username = $_POST['username'];
+$username = mysqli_real_escape_string($mysqli,$_POST['username']);
 if ($username == null) {
 	$error = 1;
 }
 
-$vorname = $_POST['vorname'];
+$vorname = mysqli_real_escape_string($mysqli,$_POST['vorname']);
 if ($vorname == null) {
 	$error = 1;
 }
 
-$nachname = $_POST['nachname'];
+$nachname = mysqli_real_escape_string($mysqli,$_POST['nachname']);
 if ($nachname == null) {
 	$error = 1;
 }
 
-$mail = $_POST['email'];
+$mail = mysqli_real_escape_string($mysqli,$_POST['email']);
 if ($mail == null) {
 	$error = 1;
 }
 
-$passwort = $_POST['passwort'];
+$passwort = mysqli_real_escape_string($mysqli,$_POST['passwort']);
 if ($passwort == null) {
 	$error = 1;
 }

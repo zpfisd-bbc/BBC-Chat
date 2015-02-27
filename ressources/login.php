@@ -9,8 +9,8 @@ session_start();
 $_SESSION["logedin"] = false;
 
 //Skript
-$username = $_POST['username'];
-$passwort = $_POST['passwort'];
+$username = mysqli_real_escape_string($mysqli,$_POST['username']);
+$passwort = mysqli_real_escape_string($mysqli,$_POST['passwort']);
 
 $query = "select * from registration";
 

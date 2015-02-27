@@ -74,22 +74,6 @@ include_once '../ressources/chat_history.php';
                     <hr>
                         
                         <!-- settings -->
-                            <div class="btn-group pull-right">
-                                
-                                <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <span class="glyphicon glyphicon-cog"></span>
-                                    <span class="sr-only">Toggle Dropdown</span>
-                                </button>
-                                
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#"><span class="fa fa-map-marker"></span>&nbsp;Invisible</a></li>
-                                    <li><a href="#"><span class="fa fa-comments-o"></span>&nbsp;Online</a></li>
-                                    <li><a href="#"><span class="fa fa-lock"></span>&nbsp;Busy</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#"><span class="fa fa-circle-o-notch"></span>&nbsp;Logout</a></li>
-                                </ul>
-                                
-                            </div>
                     </div>
 					<!-- end of settings -->
 					
@@ -106,7 +90,7 @@ include_once '../ressources/chat_history.php';
 						?>
 						<hr>
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Text eingeben..." name="message" id="message">
+                            <input type="text" class="form-control" placeholder="Text eingeben..." name="message" id="message" required>
                             
                             <span class="input-group-btn">
                                 <input class="btn btn-info" type="submit" id="submit" placeholder="Registrieren" required>
